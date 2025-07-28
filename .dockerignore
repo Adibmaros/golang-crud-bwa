@@ -1,0 +1,11 @@
+.env
+.env.local
+.git
+.gitignore
+README.md
+Dockerfile
+.dockerignore
+*.log
+tmp/
+.vscode/
+.idea/
