@@ -11,7 +11,7 @@ import (
 
 func InitDB() (*sql.DB, error) {
 	// Ambil connection string dari environment variable
-	dbURL := os.Getenv("DATABASE_URL")
+	dbURL := "postgresql://postgres:AdibmuhA212z@db.nxhexaubbamhtfzuytiy.supabase.co:5432/postgres"
 	
 	var dsn string
 	
