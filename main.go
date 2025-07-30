@@ -165,7 +165,7 @@ func main() {
 	// Get port from environment variable (untuk Railway)
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8080"
+		port = "9090"
 	}
 
 	log.Printf("Server starting on port %s...", port)
